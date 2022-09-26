@@ -1,0 +1,77 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace а2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Введите дату рождения - ");
+            int data = int.Parse(Console.ReadLine());
+            Console.Write("Введите сегодняшнее число - ");
+            int datatoday = int.Parse(Console.ReadLine());
+            Console.Write("Ввежите нвнешний месяц - ");
+            string mestoday = Console.ReadLine();
+            int kolvo;
+            switch (mestoday)
+            {
+                case "январь":
+                    kolvo = (31 - data) + datatoday;
+                    Console.WriteLine("Ребёнку - " + kolvo + " дня/дней");
+                    break;
+                case "февраль":
+                    kolvo = (31 - data) + datatoday;
+                    Console.WriteLine("Ребёнку - " + kolvo + " дня/дней");
+                    break;
+                case "март":
+                    kolvo = (28 - data) + datatoday;
+                    Console.WriteLine("Ребёнку - " + kolvo + " дня/дней");
+                    break;
+                case "апрель":
+                    kolvo = (31 - data) + datatoday;
+                    Console.WriteLine("Ребёнку - " + kolvo + " дня/дней");
+                    break;
+                case "май":
+                    kolvo = (30 - data) + datatoday;
+                    Console.WriteLine("Ребёнку - " + kolvo + " дня/дней");
+                    break;
+                case "июнь":
+                    kolvo = (31 - data) + datatoday;
+                    Console.WriteLine("Ребёнку - " + kolvo + " дня/дней");
+                    break;
+                case "июль":
+                    kolvo = (30 - data) + datatoday;
+                    Console.WriteLine("Ребёнку - " + kolvo + " дня/дней");
+                    break;
+                case "август":
+                    kolvo = (31 - data) + datatoday;
+                    Console.WriteLine("Ребёнку - " + kolvo + " дня/дней");
+                    break;
+                case "сентябрь":
+                    kolvo = (31 - data) + datatoday;
+                    Console.WriteLine("Ребёнку - " + kolvo + " дня/дней");
+                    break;
+                case "октябрь":
+                    kolvo = (30 - data) + datatoday;
+                    Console.WriteLine("Ребёнку - " + kolvo + " дня/дней");
+                    break;
+                case "ноябрь":
+                    kolvo = (31 - data) + datatoday;
+                    Console.WriteLine("Ребёнку - " + kolvo + " дня/дней");
+                    break;
+                case "декабрь":
+                    kolvo = (30 - data) + datatoday;
+                    Console.WriteLine("Ребёнку - " + kolvo + " дня/дней");
+                    break;
+
+
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
